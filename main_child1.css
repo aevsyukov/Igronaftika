@@ -1,0 +1,87 @@
+
+html {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+body {
+    margin: 0;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+
+
+/*Шапка сайта*/
+.header {
+    font-family: Garamond, serif; /*Шрифт текста в хэдере*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:stretch;
+    flex-wrap: wrap;
+}
+
+/**/
+/*Ячейки flexbox*/
+.flex_block {
+    /*background-color: red;*/
+    padding: 0.8em;
+    flex-basis: auto;
+    flex-grow: 3;
+}
+
+/*Первая ячейка*/
+.flex_block:first-child {
+    /*background-color: blue;*/
+    flex-grow:1;
+    width:20%;
+}
+
+/*Последняя ячейка*/
+.flex_block:last-child {
+    /*background-color: green;*/
+    flex-grow:2;
+    width:20% ;
+}
+
+/*Логотип*/
+img.logo {
+    width: 50%; /*Размер рисунка*/
+    min-width: 150px;
+}
+
+/*Название магазина*/
+#aboutus {
+    padding-top: 4%; /*Отступ сверху*/
+    padding-left: 3%;
+}
+
+/*Главное название AboutCompany Игронафтика*/
+a.name {
+    font-size: 2.5em; /*Размер текста*/
+    text-decoration: none; /*Отсутствие подчеркивания ссылки*/
+    color: black;
+}
+
+/*Описание магазина AboutCompany Интернет-магазин настольных игр*/
+a.slogan {
+    text-decoration: none; /*ОТсутствие подчеркивания ссылки*/
+    color: black;
+}
+
+/*Контактные данные*/
+#contacts {
+    padding-left: 5%; /*Отступ слева*/
+    padding-top: 5.5%; /*Отступ сверху*/
+}
+
+/**//*Оформление ширины сайта*/
+.site_size {
+    width:60%; /* ширина основной части сайта */
+    height: 100%; /*высота основной части сайта*/
+    margin: 0 auto; /* Отступы сверху и снизу 0, по бокам автоматические - получается по середине */
+
+}

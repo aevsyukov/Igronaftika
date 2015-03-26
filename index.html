@@ -3,66 +3,93 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Игронафтика</title>
-    <link type="text/css" rel="stylesheet" href="main.css">
+    <link type="text/css" rel="stylesheet" href="main_child1.css">
 </head>
 <body>
-        <div class="igronaft">
+<div class="site_size">
 
-            <div class="top_header">
-                <div class="title_block">
+            <!---->
+            <!--Header-->
+    <div class="header">
 
-                    <!--Логотип-->
-                    <div class="logo">
-                        <a href="#">
-                            <img alt="Интернет-магазин 'Игронафтика'"
-                                 title="Интернет-магазин 'Игронафтика'"
-                                 class="logo"
-                                 src="logo_xl.jpg">
-                        </a>
-                    </div>
-                    <!---->
+        <!--Логотип-->
+        <div class="flex_block" id="logo">
+            <a href="#">
+            <img alt="Интернет-магазин 'Игронафтика'"
+                title="Интернет-магазин 'Игронафтика'"
+                 class="logo"
+                 src="logo_xl.jpg">
+            </a>
+        </div>
 
-                    <!--Название-->
-                     <div class="AboutCompany">
-                        <div>
-                            <a class="name" href="#"> Игронафтика </a>
-                        </div>
-                        <div>
-                            <a class="slogan" href="#">Интернет-магазин
-                                настольных игр</a>
-                        </div>
-                    </div>
-                    <!--Контакты-->
+        <!--Название, короткое описание-->
+        <div class="flex_block" id="aboutus">
+            <div>
+                <a class="name" href="#"> Игронафтика </a>
+            </div>
+            <div>
+                <a class="slogan" href="#">Интернет-магазин
+                    настольных игр</a>
+            </div>
+        </div>
+
+        <!--Контакты-->
+        <div class="flex_block" id="contacts">
+            <div class="phone"><span class="small-phone">+7-921-377-71-56</span>
+            </div>
+            <div class="address">
+                Санкт-Петербург
+            </div>
+            <div class="time">Пн - Вс с 10:00 до 21:00
+            </div>
+        </div>
+
+    </div>
+
+    <!--Меню-->
+    <div class="menu">
+        <ul>
+            <li>Главная</li>
+            <li>Каталог</li>
+            <li>Новости и акции</li>
+            <li>Оплата и доставка</li>
+            <li>Контакты</li>
+        </ul>
+
+    </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<!--
+
+
+
+
+
+            <div class="header_basket">
+                <div><a
+                        href="#"><span>Корзина товаров:</span></a>
                 </div>
-                <div class="contacts">
-                    <div class="phone"><span class="small-phone">+7-921-377-71-56</span>
-                    </div>
-                    <div class="address">
-                        Санкт-Петербург
-                    </div>
-                    <div class="time">Пн - Вс с 10:00 до 21:00
-                    </div>
-                </div>
-
-                <!--Корзина-->
-                <div class="header_basket">
-                    <div><a
-                            href="#"><span>Корзина товаров:</span></a>
-                    </div>
             <span id="emptybasket_title"
                     >Корзина товаров пуста</span>
-                </div>
             </div>
-            <div class="top_menu">
-                <ul>
-                    <li>Главная</li>
-                    <li>Каталог</li>
-                    <li>Новости и акции</li>
-                    <li>Оплата и доставка</li>
-                    <li>Контакты</li>
-                </ul>
+        </div>
 
-            </div>
+
+
+
 
 
 
@@ -74,7 +101,8 @@
 
 
 
-<!--1. Шапка сайта (иконка, название, телефон, время работы)
+
+        1. Шапка сайта (иконка, название, телефон, время работы)
 2. Меню навигации (Главная, Каталог, Новости и акции, Оплата и доставка, Контакты)
 3. Поиск, Левый столбец навигации
 4. Разделы
