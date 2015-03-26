@@ -1,0 +1,29 @@
+img.logo { /**/ /*Стиль логотипа*/
+    width: 10em; /*Размер рисунка*/
+}
+
+.AboutCompany { /*Название магазина*/
+    padding-top: 3em; /*Отступ сверху*/
+}
+
+a.name { /*Главное название*/
+    font-size: 2.5em; /*Размер текста*/
+    text-decoration: none; /*Отсутствие подчеркивания ссылки*/
+}
+
+a.slogan { /*Описание магазина*/
+    text-decoration: none; /*ОТсутствие подчеркивания ссылки*/
+}
+.contacts { /*Контактные данные*/
+    padding-left: 5em; /*Отступ слева*/
+    padding-top: 4em; /*Отступ сверху*/
+}
+
+.top_header { /*Заголовок*/
+    font-family: Garamond, serif; /*Шрифт текста в хэдере*/
+}
+
+.header_basket {
+    border-style: double; /* Стиль линии вокруг параграфа */
+    padding: 5px; /* Поля вокруг текста */
+}
